@@ -14,7 +14,7 @@ export const GlobalContextProvider = ({children}) => {
         try {
             const res = await axios.get(`api/weather?lat=${lat}&lon=${lon}`);
 
-            console.log("res: ", res.data)
+            setForecast(res.data);
         } catch (error) {
             console.log("Error fetching forecast data", error.message);
         }
@@ -25,7 +25,9 @@ export const GlobalContextProvider = ({children}) => {
     }, []);
 
     return(
-        <GlobalContext.Provider value="hello">
+        <GlobalContext.Provider value={{
+            forecast,
+        }}>
             <GlobalContextUpdate.Provider>
                 {children}
             </GlobalContextUpdate.Provider>
