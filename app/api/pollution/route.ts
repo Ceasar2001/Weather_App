@@ -17,3 +17,4 @@ export async function GET(req: NextRequest){
         return new Response("Error fetching data", {status: 500});
     }
 }
+
