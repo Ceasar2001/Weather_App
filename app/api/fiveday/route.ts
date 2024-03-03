@@ -22,4 +22,3 @@ export async function GET(req: NextRequest){
         return new Response("Error in getting daily data", { status: 500 });
     } 
 }
-//2:47:00
