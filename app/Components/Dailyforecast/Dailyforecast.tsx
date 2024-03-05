@@ -66,7 +66,8 @@ function DailyForecast() {
         {todaysForecast.length < 1 ? (
           <div className="flex justify-center items-center">
             <h1 className="text-[3rem] line-through text-rose-500">No Data Available!</h1>
-          </div>) : (
+          </div>
+          ) : (
           <div className="w-full">
             <Carousel>
               <CarouselContent>

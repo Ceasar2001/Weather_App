@@ -34,6 +34,13 @@ const defaultStates = [
       lat: 41.3828939,
       lon: 2.1774322,
     },
+    {
+      name: "Philippines",
+      country: "PH",
+      state: "Philippines",
+      lat: 14.5995,
+      lon: 120.9842
+    }
   ];
   
   export default defaultStates;
