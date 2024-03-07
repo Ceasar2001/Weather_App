@@ -6,6 +6,9 @@ import Wind from "./Components/Wind/Wind";
 import DailyForecast from "./Components/Dailyforecast/Dailyforecast";
 import UvIndex from "./Components/UvIndex/UvIndex";
 import Population from "./Components/Population/Population";
+import FeelsLike from "./Components/FeelsLike/FeelsLike";
+import Humidity from "./Components/Humidity/Humidity";
+import Visibility from "./Components/Visibility/Visibility";
 
 
 export default function Home() {
@@ -24,6 +27,9 @@ export default function Home() {
           <DailyForecast />
           <UvIndex />
           <Population />
+          <FeelsLike />
+          <Humidity />
+          <Visibility />
         </div>
       </div>
     </div>
