@@ -6,8 +6,11 @@ export async function GET(req: NextRequest){
     try{
 
         const apiKey = process.env.OPENWEATHERMAP_API_KEY;
-        const lat = 14.5995;
-        const lon = 120.9842;
+        
+        const searchParams = req.nextUrl.searchParams;
+        const lat = searchParams.get("lat");
+        const lon = searchParams.get("lon");
+
         const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
     
        const res = await axios.get(url);
