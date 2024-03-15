@@ -23,10 +23,10 @@ function Navbar() {
           <Button
             className="source-code-btn flex items-center gap-2"
             onClick={() => {
-              router.push("https//github.com");
+              window.open("https://github.com/Ceasar2001", "_blank");
             }}
           >
-            {github} Source Code
+            {github} Coder
           </Button>
         </div>
       </div>
