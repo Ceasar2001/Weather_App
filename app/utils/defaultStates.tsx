@@ -1,45 +1,24 @@
 const defaultStates = [
     {
-      name: "Madrid",
-      country: "ES",
-      state: "Madrid",
-      lat: 40.4165,
-      lon: -3.7026,
-    },
-    {
-      name: "London",
-      country: "GB",
-      state: "England",
-      lat: 51.5074,
-      lon: 0.1278,
-    },
-    {
-      name: "New York",
-      country: "US",
-      state: "New York",
-      lat: 40.7128,
-      lon: -74.006,
-    },
-    {
-      name: "Sydney",
-      country: "AU",
-      state: "New South Wales",
-      lat: -33.8688197,
-      lon: 151.2092955,
-    },
-    {
-      name: "Barcelona",
-      country: "ES",
-      state: "Catalonia",
-      lat: 41.3828939,
-      lon: 2.1774322,
-    },
-    {
       name: "Philippines",
       country: "PH",
       state: "Philippines",
       lat: 14.5995,
-      lon: 120.9842
+      lon: 120.9842,
+    },
+    {
+      name: "Butuan",
+      country: "BXU",
+      state: "Caraga",
+      lat: 8.948955905993653,
+      lon:  125.53414041472742,
+    },
+    {
+      name: "Caraga State University",
+      country: "CSU",
+      state: "Butuan",
+      lat: 8.956757120392547,
+      lon: 125.59953443799786,
     }
   ];
   

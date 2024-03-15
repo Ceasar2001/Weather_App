@@ -37,6 +37,10 @@ function DailyForecast() {
 
   const { main: weatherMain } = weather[0];
 
+  if(todaysForecast.lenght < 1){
+    return <Skeleton className="h-[12ren] w-full col-span-full sm-2:col-span-2 md:col-span-2 xl:col-span-2"/>
+  }
+
   if (todaysForecast.length < 1) {
     return (
       <Skeleton className="h-[12rem] w-full col-span-full sm-2:col-span-2 md:col-span-2 xl:col-span-2" />
